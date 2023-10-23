@@ -111,3 +111,5 @@ $(CC) -o $@ $(OBJS)
 ```
 
 전체 매뉴얼은 [여기](http://www.gnu.org/software/make/manual/make.html) 또는 [여기](https://makefiletutorial.com/)를 참조하십시오.
+
+* 프로젝트 규모가 커질수록 Makefile을 관리하기 힘들어지므로 CMake 등과 같은 빌드 도구를 사용하는 것이 좋다.
